@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import AddSmurf from '../actions';
 
 
-class SmurfForm extends Component {
+class AddSmurf extends Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -65,4 +65,4 @@ const mapStateToProps = state => {
     return {}
 }
 
-export default connect(mapStateToProps, {addSmurf: addSmurf} )(AddSmurf)
+export default connect(mapStateToProps, {addSmurf: addSmurf})(AddSmurf)
